@@ -1,0 +1,148 @@
+body {
+    background-color: #fdeded; /* Soft pink background */
+    text-align: center;
+    margin: 0;
+    font-family: 'Great Vibes', cursive; /* Elegant font for content */
+}
+
+/* Navigation Bar */
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox */
+}
+
+.menu li {
+    margin-right: 20px; /* Adjust spacing between menu items */
+}
+
+.menu li:last-child {
+    margin-right: 0; /* Remove margin for the last item */
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #c02942; /* Deep pink for menu text */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background-color: #ffc0cb; /* Light pink for hover */
+}
+
+/* Submenu (not currently used) */
+.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.sub-menu li {
+    display: block;
+}
+
+.menu li:hover .sub-menu {
+    display: block;
+}
+
+/* Navigation Bar Positioning (can be removed if not needed) */
+nav {
+    text-align: center;
+    margin-left: 450px; /* Adjust horizontal position if needed */
+}
+
+/* Content Section */
+.container {
+    display: flex; /* Use flexbox for the container */
+    flex-direction: column; /* Stack elements vertically (added for paragraph positioning) */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center content vertically (optional) */
+}
+
+.img-anni {
+    display: flex; /* Use flexbox for the image container */
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.img-anni img {
+    width: 200px; /* Set the width of images */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 80px; /* Adjust spacing between images */
+}
+
+/* Apply similar styles to .2main-img */
+.twomain-img {
+    display: flex; /* Use flexbox for horizontal arrangement */
+    justify-content: center; /* Distribute images evenly */
+    align-items: center; /* Center images vertically (optional) */
+    margin-top: 20px; /* Adjust margin as needed */
+    
+}
+
+.twomain-img img {
+    width: 200px; /* Set the same width as .img-anni */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 80px; /* Adjust spacing between images */
+    padding-bottom: 400px;
+}
+
+/* Image Descriptions (styles can be improved) */
+
+/* Paragraph Styles */
+/* Headings */
+h1 {
+    font-family: 'Sacramento', cursive; /* Script font for headings */
+    color: #c02942; /* Deep pink for headings */
+    font-size: 100px;
+}
+
+nav {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the menu horizontally */
+    padding: 10px 20px; /* Add some padding */
+    margin: 10px 0; /* Add some margin for separation */
+    position: relative; /* Needed for the shape */
+    margin-top: 100px;
+}
+
+.header-content {
+    background-image: url("path/to/your/collage.jpg"); /* Replace with your collage path */
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* Adjust height */
+}
+
+
+
+h3 {
+    font-family: 'Sacramento', cursive; /* Script font for headings */
+    color: #c02942; /* Deep pink for headings */
+    font-size: 50px;
+    margin-bottom: 400px;
+}
+h2{
+    font-size: 50px;
+    color: #c02942;
+    font-family: 'Sacramento', cursive;
+    margin-top: 400px;
+}
+.essay {
+    padding: 50px 80px; /* Adjust padding */
+    font-size: 20px; /* Adjust font size */
+    text-align: justify; /* Justify text for better readability */
+    margin:5px 0; /* Add some space before signatures */
+}
+
+/* Signatures */
+.sig2 {
+    text-align: right;
+    margin-top: 10px; /* Add some space between signatures */
+    margin-right: -500px;
+}
